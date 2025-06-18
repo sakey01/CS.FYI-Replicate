@@ -3,21 +3,23 @@ body {
     font-size: 16px;
     background-color: rgb(20, 20, 20);
     color: white;
-    margin: 0 58px 0 58px;
+    margin: 0 58px;
 }
 
 nav {
     margin: 0 auto;
     padding: 40px 10px 20px 0;
 }
+
 .nav-block {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
+
 .left-nav {
     font-size: 26px;
     display: flex;
@@ -27,16 +29,18 @@ nav {
     display: flex;
     gap: 20px;
 }
-.grey-font {
-    color: rgb(160, 160, 160);
-}
 
 a {
     text-decoration: none;
     color: rgb(160, 160, 160);
 }
+
 a:hover {
     color: white;
+}
+
+.grey-font {
+    color: rgb(160, 160, 160);
 }
 
 h1 {
@@ -44,7 +48,8 @@ h1 {
     margin-top: 20px;
     margin-bottom: 0;
 }
-#description{
+
+#description {
     font-size: 20px;
     margin-bottom: 60px;
 }
@@ -56,10 +61,9 @@ h1 {
     list-style: none;
     margin: 0;
     font-size: 22px;
-    border-style: none none solid;
-    border-color: rgb(160, 160, 160);
-    border-width: 1px;
+    border-bottom: 1px solid rgb(160, 160, 160);
 }
+
 date {
     font-size: 18px;
 }
